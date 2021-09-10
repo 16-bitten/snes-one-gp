@@ -145,7 +145,7 @@ start and select buttons. */
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back{
     width: 30px;
-    height: 50px;
+    height: 0px;
 }
 
 .custom .start{
@@ -172,20 +172,20 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 259px;
-    height: 218px;
+    width: 130px;
+    height: 95px;
     top: 105px;
-    left: 633px;
+    left: 92px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:75px;
-    height:75px;
+    width:70px;
+    height:50px;
 }
 .custom .button.pressed{
     background: url(drawing/gamepad3.png);
-    background-position-x: -1249px;
+    background-position-x: -600px;
 }
 .custom .a{
     top: 143px;
