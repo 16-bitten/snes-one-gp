@@ -144,13 +144,13 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back{
-    width: 71.5px;
-    height: 61.5px;
+    width: 30px;
+    height: 50px;
 }
 
 .custom .start{
-    width: 71.5px;
-    height: 61.5px;
+    width: 60  px;
+    height: 100px;
 }
 
 .custom .back.pressed{
