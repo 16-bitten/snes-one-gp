@@ -38,7 +38,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    background: url(gamepad1.png); 
+    background: url(gamepad2.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 939px;
@@ -47,7 +47,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     margin-top: -212px;
 }
 .custom.disconnected {
-    background: url(gamepad1.png); 
+    background: url(gamepad2.png); 
     background-position: 0px -424px;
     background-repeat: no-repeat;
 }
