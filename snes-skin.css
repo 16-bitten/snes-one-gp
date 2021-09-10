@@ -137,30 +137,30 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 100px;
-    height: 60px;
-    top: 30px;
-    left: 130px;
+    width: 110px;
+    height: 20px;
+    top: 85px;
+    left: 114px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back{
-    width: 30px;
-    height: 0px;
+    width: 60px;
+    height: 20px;
 }
 
 .custom .start{
-    width: 60  px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 
 .custom .back.pressed{
     background: url(gamepad3.png);
-    background-position: -1177.5px 0px;
+    background-position: -1095px 360px;
 }
 
 .custom .start.pressed{
     background: url(gamepad3.png);
-    background-position: -1177.5px 0px;
+    background-position: -1115px 373px;
 }
 
 .custom .back{
@@ -172,34 +172,44 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 130px;
+    width: 100px;
     height: 95px;
-    top: 105px;
-    left: 92px;
+    top: 70px;
+    left: 220px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:70px;
+    width: 50px;
     height:50px;
 }
 .custom .button.pressed{
-    background: url(drawing/gamepad3.png);
-    background-position-x: -1100px;
+    background: url(gamepad3.png);
+    background-position: -110px 300px;
 }
-.custom .a{
-    top: 143px;
-    left: 92px;
+.custom .a.pressed{
+    top:60px;
+    left: 44px;
+    background: url(gamepad3.png);
+    background-position: -2454px 145px;
 }
-.custom .b{
-    top: 71px;
-    right: 0px;
+.custom .b.pressed{
+    top:45px;
+    left: 93px;
+    background: url(gamepad3.png);
+    background-position: -1876px 145px;
 }
-.custom .x{
-    top: 71px;
+.custom .x.pressed{
+    top:22px;
+    left: 22px;
+    background: url(gamepad3.png);
+    background-position: -2456px 200px;
 }
-.custom .y{
-    left: 92px;
+.custom .y.pressed{
+    top:10px;
+    left: 68px;
+    background: url(gamepad3.png);
+    background-position: -2520px 200px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
@@ -234,57 +244,50 @@ the CSS inline. */
 .custom .dpad{
     position: absolute;
     width: 146px;
-    height: 146px;
-    top: 142px;
-    left: 133px;
+    height: 46px;
+    top: 35px;
+    left: 43px;
 }
 .custom .face{
     position: absolute;
 }
-.custom .face.up, .custom .face.down{
-    width: 33.5px;
-    height: 34px;
-}
-.custom .face.left, .custom .face.right{
-    width: 34px;
+.custom .face.up, .custom .face.down, .face.left, .custom .face.right{
+    width: 60px;
     height: 33.5px;
 }
-.custom .face.up{
-    left: 56px;
-    top: 0;
+.custom .face.up.pressed{
+    left: 28px;
+    top: 2px;
     background-position: 92px 0px;
+   background: url(gamepad3.png);
+    background-position: -1103px 540px;
 }
-.custom .face.down{
-    left: 56px;
-    top: 112px;
-    background-position: 131px 0;
-    -webkit-transform: rotateX(180deg);
-    transform: rotateX(180deg);
+.custom .face.down.pressed{
+    left: 12px;
+    top: 33px;
+    background-position: 92px 0px;
+   background: url(gamepad3.png);
+    background-position: -1224px 538px;
 }
-.custom .face.left{
-    top: 56px;
-    left: 0;
-    background-position: 0px 0;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+.custom .face.left.pressed{
+    left: -18px;
+    top: 14.5px;
+    background-position: 92px 0px;
+   background: url(gamepad3.png);
+    background-position: -1028px 538px;
 }
-.custom .face.right{
-    top: 56px;
-    right: 0px;
-    background-position: 53px 0;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-.custom .face.pressed{
-    background: url(drawing/drawing.svg);
-    background-position-x: -1323px;
+.custom .face.right.pressed{
+    left: 36px;
+    top: 25.5px;
+   background: url(gamepad3.png);
+    background-position: -1158px 538px;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
 for '.controller.custom' so when your skin is activated via player selection
 parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
 centered on screen. */
 .custom.half{
-    margin-top: -279px;
+    margin-top: -115px;
 }
 /* The following entries are empty because I haven't used them yet, but they
 exist for the purpose of displaying a fightstick. Since fightsticks have 
