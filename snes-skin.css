@@ -185,7 +185,7 @@ start and select buttons. */
 }
 .custom .button.pressed{
     background: url(drawing/gamepad3.png);
-    background-position-x: -600px;
+    background-position-x: -1100px;
 }
 .custom .a{
     top: 143px;
