@@ -40,9 +40,9 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 .controller.custom{
     background: url(gamestick2.png); 
     background-repeat: no-repeat;
-    background-position: 0px 0px;
-    width: 400px;
-    height: 231px;
+    background-position: 375px 0px;
+    width: 453px;
+    height: 126px;
 }
 .custom.disconnected {
     background: url(gamestick2.png); 
