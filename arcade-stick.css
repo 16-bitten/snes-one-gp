@@ -38,14 +38,14 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    background: url(gamepad4.png); 
+    background: url(gamestick1.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 400px;
     height: 231px;
 }
 .custom.disconnected {
-    background: url(gamepad4.png); 
+    background: url(gamestick1.png); 
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
@@ -154,12 +154,12 @@ start and select buttons. */
 }
 
 .custom .back.pressed{
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -1095px 360px;
 }
 
 .custom .start.pressed{
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -1115px 373px;
 }
 
@@ -184,31 +184,31 @@ start and select buttons. */
     height:50px;
 }
 .custom .button.pressed{
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -110px 300px;
 }
 .custom .a.pressed{
     top:60px;
     left: 44px;
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -2454px 145px;
 }
 .custom .b.pressed{
     top:45px;
     left: 93px;
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -1876px 145px;
 }
 .custom .x.pressed{
     top:22px;
     left: 22px;
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -2456px 200px;
 }
 .custom .y.pressed{
     top:10px;
     left: 68px;
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -2520px 200px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
@@ -259,27 +259,27 @@ the CSS inline. */
     left: 28px;
     top: 2px;
     background-position: 92px 0px;
-   background: url(gamepad4.png);
+   background: url(gamestick1.png);
     background-position: -1103px 540px;
 }
 .custom .face.down.pressed{
     left: 12px;
     top: 33px;
     background-position: 92px 0px;
-   background: url(gamepad4.png);
+   background: url(gamestick1.png);
     background-position: -1224px 538px;
 }
 .custom .face.left.pressed{
     left: -18px;
     top: 14.5px;
     background-position: 92px 0px;
-   background: url(gamepad4.png);
+   background: url(gamestick1.png);
     background-position: -1028px 538px;
 }
 .custom .face.right.pressed{
     left: 36px;
     top: 25.5px;
-   background: url(gamepad4.png);
+   background: url(gamestick1.png);
     background-position: -1158px 538px;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
@@ -383,14 +383,14 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    background: url(gamepad4.png); 
+    background: url(gamestick1.png); 
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 400px;
     height: 231px;
 }
 .custom.disconnected {
-    background: url(gamepad4.png); 
+    background: url(gamestick1.png); 
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
@@ -499,12 +499,12 @@ start and select buttons. */
 }
 
 .custom .back.pressed{
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -1095px 360px;
 }
 
 .custom .start.pressed{
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -1115px 373px;
 }
 
@@ -529,31 +529,31 @@ start and select buttons. */
     height:50px;
 }
 .custom .button.pressed{
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -110px 300px;
 }
 .custom .a.pressed{
     top:60px;
     left: 44px;
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -2454px 145px;
 }
 .custom .b.pressed{
     top:45px;
     left: 93px;
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -1876px 145px;
 }
 .custom .x.pressed{
     top:22px;
     left: 22px;
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -2456px 200px;
 }
 .custom .y.pressed{
     top:10px;
     left: 68px;
-    background: url(gamepad4.png);
+    background: url(gamestick1.png);
     background-position: -2520px 200px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
@@ -604,27 +604,27 @@ the CSS inline. */
     left: 28px;
     top: 2px;
     background-position: 92px 0px;
-   background: url(gamepad4.png);
+   background: url(gamestick1.png);
     background-position: -1103px 540px;
 }
 .custom .face.down.pressed{
     left: 12px;
     top: 33px;
     background-position: 92px 0px;
-   background: url(gamepad4.png);
+   background: url(gamestick1.png);
     background-position: -1224px 538px;
 }
 .custom .face.left.pressed{
     left: -18px;
     top: 14.5px;
     background-position: 92px 0px;
-   background: url(gamepad4.png);
+   background: url(gamestick1.png);
     background-position: -1028px 538px;
 }
 .custom .face.right.pressed{
     left: 36px;
     top: 25.5px;
-   background: url(gamepad4.png);
+   background: url(gamestick1.png);
     background-position: -1158px 538px;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
