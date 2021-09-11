@@ -37,18 +37,14 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
-.controller.custom{
+.controller.custom .custom.disconnected{
     background: url(gamestick2.png); 
     background-repeat: no-repeat;
     background-position: 375px 0px;
     width: 453px;
     height: 126px;
 }
-.custom.disconnected {
-    background: url(gamestick2.png); 
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-}
+
 /* This hides the controller's button when disconnected so only the background image remains 
 .custom.disconnected div {
    display: none; 
