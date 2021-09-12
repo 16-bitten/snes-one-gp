@@ -608,28 +608,16 @@ the CSS inline. */
   display:none;
 }
 .custom .face.up.pressed{
-    left: 14px;
-    top: 3px;
-   background: url(gamestick3.png);
-    background-position: -100px 0px;
+display:none;
 }
 .custom .face.down.pressed{
-    left: 12px;
-    top: 13px;
-   background: url(gamestick3.png);
-    background-position: -100px 264px;
+display:none;
 }
 .custom .face.left.pressed{
-    left: 28px;
-    top: 3px;
-   background: url(gamestick3.png);
-    background-position: -8px -120px;
+display:none;
 }
 .custom .face.right.pressed{
-    left: 28px;
-    top: 3px;
-   background: url(gamestick3.png);
-    background-position: -210px -120px;
+display:none;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
 for '.controller.custom' so when your skin is activated via player selection
@@ -660,8 +648,8 @@ showing the input would be to use an image sprite of a fight stick in
 all 8 positions, and change it according to the inputs. The classes 
 themselves are fairly self explanatory. */
 .fstick{
-    left: 55px;
-    top: 49px;
+    left: 56px;
+    top: 48px;
    background: url(gamestick3.png);
     background-position: -100px 374px;
 }
@@ -669,19 +657,56 @@ themselves are fairly self explanatory. */
 .fstick.down,
 .fstick.left,
 .fstick.right{
-  display:none;
+    width: 130px;
+    height: 130px;
+}
+.fstick.up{
+    left: 59px;
+    top: 38px;
+   background: url(gamestick3.png);
+    background-position: -100px 0px;
+}
+.fstick.down{
+    left: 57px;
+    top: 48px;
+   background: url(gamestick3.png);
+    background-position: -100px 264px;
+}
+.fstick.left{
+    left: 72px;
+    top: 38px;
+   background: url(gamestick3.png);
+    background-position: -8px -120px;
+}
+.fstick.right{
+    left: 74px;
+    top: 38px;
+   background: url(gamestick3.png);
+    background-position: -210px -120px;
 }
 .fstick.up.right{
-  
+      left: 75px;
+    top: 38px;
+   background: url(gamestick3.png);
+    background-position: -220px 0px;
 }
 .fstick.up.left{
-  
+     left: 110px;
+    top: 38px;
+   background: url(gamestick3.png);
+    background-position: -30px 0px;
 }
 .fstick.down.right{
-  
+         left: 81px;
+    top: 58px;
+   background: url(gamestick3.png);
+    background-position: -220px -250px;
 }
 .fstick.down.left{
-  
+       left: 81px;
+    top: 58px;
+   background: url(gamestick3.png);
+    background-position: -10px -250px;
 }
 
 /*END PS3 Controller Styling*/
