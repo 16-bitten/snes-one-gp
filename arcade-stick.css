@@ -501,7 +501,7 @@ start and select buttons. */
 .custom .start.pressed{
   position: absolute;
     top: 7px;
-    left: 253px;
+    left: 249px;
     background: url(gamestick3.png);
     background-position: -2178px 183px;
 }
